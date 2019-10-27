@@ -44,9 +44,9 @@ This is the end point with aggregated statistics, this has to execute in constan
 curl -H "Content-Type: application/json" -X GET http://localhost:8080/statistics
 ```
 
-### /statistics/IBM
+### /statistics/{instrument_identifier}
 This is the  end point with aggregated statistics by instrument, this has to execute in constant time and memory (O(1)). It returns the statistic based on the ticks which happened in the last 60 seconds.
 
 ```
-curl -H "Content-Type: application/json" -X GET http://localhost:8080/statistics
+curl -H "Content-Type: application/json" -X GET http://localhost:8080/statistics/instrument_identifier
 ```
