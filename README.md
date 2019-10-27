@@ -23,8 +23,8 @@ mvn -Dtest=AssignmentChallengeApplicationTests test
 ```
 curl -H "Content-Type: application/json" -X POST http://localhost:8080/ticks -d '
 {
-	"instrument": "MIC",
-	"price":0.0,
+	"instrument": "IBM.N",
+	"price":12.0,
 	"timeStamp":1571906273207
 }'
 ```
