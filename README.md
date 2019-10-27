@@ -24,7 +24,7 @@ The periodic job has the responsibility to expire the tick / transaction and re-
 ## Improvements
 1- Use JProfiler to find out memory utilization of periodic job.
 
-2- Use some in memory database solution like redis
+2- Use some in memory database solution like redis or some event listener method. 
 
 ## APIs
 
