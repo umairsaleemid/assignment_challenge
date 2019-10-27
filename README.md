@@ -23,6 +23,7 @@ The periodic job has the responsibility to expire the tick / transaction and re-
 
 ## Improvements
 1- Memory utilization of periodic job.
+
 2- Use some in memory database solution like redis
 
 ## APIs
