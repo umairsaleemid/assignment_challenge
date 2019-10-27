@@ -22,7 +22,7 @@ To achieve statistics end-point execute in constant time and memory O(1), concur
 The periodic job has the responsibility to expire the tick / transaction and re-calculate the statistics. 
 
 ## Improvements
-1- Memory utilization of periodic job.
+1- Use JProfiler to find out memory utilization of periodic job.
 
 2- Use some in memory database solution like redis
 
