@@ -26,6 +26,14 @@ The periodic job has the responsibility to expire the tick / transaction and re-
 
 2- Use some in memory database solution like redis or some event listener method. 
 
+
+## Debug Mode
+
+Change below property in file resources\application.properties
+
+logging.level.com.challenge: DEBUG
+
+
 ## APIs
 
 ### /ticks
