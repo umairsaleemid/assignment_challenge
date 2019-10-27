@@ -1,4 +1,4 @@
-package com.solactive.dto;
+package com.challenge.dto;
 
 public class Transaction {
 

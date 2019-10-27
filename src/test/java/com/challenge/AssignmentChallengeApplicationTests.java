@@ -1,4 +1,4 @@
-package com.solactive;
+package com.challenge;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
@@ -20,8 +20,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
+import com.challenge.dto.Transaction;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.solactive.dto.Transaction;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

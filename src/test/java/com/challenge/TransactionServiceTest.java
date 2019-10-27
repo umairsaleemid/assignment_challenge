@@ -1,4 +1,4 @@
-package com.solactive;
+package com.challenge;
 
 import java.time.Clock;
 import java.time.Instant;
@@ -13,9 +13,9 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.solactive.dto.Statistics;
-import com.solactive.dto.Transaction;
-import com.solactive.service.StatisticsService;
+import com.challenge.dto.Statistics;
+import com.challenge.dto.Transaction;
+import com.challenge.service.StatisticsService;
 
 @RunWith(SpringRunner.class)
 public class TransactionServiceTest {

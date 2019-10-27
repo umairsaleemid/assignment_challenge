@@ -1,4 +1,4 @@
-package com.solactive.constant;
+package com.challenge.constant;
 
 /**
  * AssignmentConstant

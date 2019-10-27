@@ -1,4 +1,4 @@
-package com.solactive.controller;
+package com.challenge.controller;
 
 import java.time.Clock;
 import java.time.Instant;
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.solactive.constant.AssignmentConstant;
-import com.solactive.dto.Statistics;
-import com.solactive.dto.Transaction;
-import com.solactive.service.IStatisticsService;
+import com.challenge.constant.AssignmentConstant;
+import com.challenge.dto.Statistics;
+import com.challenge.dto.Transaction;
+import com.challenge.service.IStatisticsService;
 
 /**
  * All operations related to indexes this controller.

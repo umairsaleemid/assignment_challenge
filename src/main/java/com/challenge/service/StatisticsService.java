@@ -1,4 +1,4 @@
-package com.solactive.service;
+package com.challenge.service;
 
 import java.time.Instant;
 import java.time.ZoneOffset;
@@ -11,10 +11,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import com.solactive.constant.AssignmentConstant;
-import com.solactive.dto.Statistics;
-import com.solactive.dto.Transaction;
-import com.solactive.servicemanager.StatisticsServiceManager;
+import com.challenge.constant.AssignmentConstant;
+import com.challenge.dto.Statistics;
+import com.challenge.dto.Transaction;
+import com.challenge.servicemanager.StatisticsServiceManager;
 
 /**
  * 

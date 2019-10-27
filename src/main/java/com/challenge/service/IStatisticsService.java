@@ -1,7 +1,7 @@
-package com.solactive.service;
+package com.challenge.service;
 
-import com.solactive.dto.Statistics;
-import com.solactive.dto.Transaction;
+import com.challenge.dto.Statistics;
+import com.challenge.dto.Transaction;
 
 /**
  * 

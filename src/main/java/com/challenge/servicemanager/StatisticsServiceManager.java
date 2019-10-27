@@ -1,4 +1,4 @@
-package com.solactive.servicemanager;
+package com.challenge.servicemanager;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,9 +10,9 @@ import java.util.stream.DoubleStream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.solactive.constant.AssignmentConstant;
-import com.solactive.dto.Statistics;
-import com.solactive.dto.Transaction;
+import com.challenge.constant.AssignmentConstant;
+import com.challenge.dto.Statistics;
+import com.challenge.dto.Transaction;
 
 public class StatisticsServiceManager {
 
